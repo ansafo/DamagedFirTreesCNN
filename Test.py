@@ -7,7 +7,7 @@ import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-PATH_DATASET = '/OurCNN/Out_data_set'
+PATH_DATASET = ''
 
 def read_data():
     with open(PATH_DATASET + '/out_test.pickle', 'rb') as bt:
