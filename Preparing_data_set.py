@@ -5,7 +5,7 @@ import pickle
 from scipy import misc
 import matplotlib.pyplot as plt
 
-PATH_DATASET = '/OurCNN/Out_data_set'
+PATH_DATASET = ''
 
 def preprocess():
     """
