@@ -19,7 +19,7 @@ from keras.applications.vgg19 import VGG19
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = '1'
 
-PATH_DATASET = '/OurCNN/Out_data_set'
+PATH_DATASET = ''
 
 def read_data():
     with open(PATH_DATASET + 'out_whith_aug.pickle', 'rb') as bt:
