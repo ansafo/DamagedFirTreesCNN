@@ -113,7 +113,7 @@ def convert_to_one_hot(labels):
 
 if __name__ == '__main__':
     orig_data = read_data()
-    X_train, X_tmp, y_train, y_tmp = train_test_split(orig_data[0], orig_data[1], random_state=34, test_size=0.1)
+    X_train, X_tmp, y_train, y_tmp = train_test_split(orig_data[0], orig_data[1], random_state=34, test_size=0.2)
 
     a, b, y_a, y_b = train_test_split(X_tmp, y_tmp, random_state=42, test_size=0.5)
 
